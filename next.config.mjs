@@ -8,15 +8,11 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'uploadthing.com',
-        port: '',
-        pathname: '*',
+        hostname: 'uploadthing.com'
       },
       {
         protocol: 'https',
-        hostname: 'files.stripe.com',
-        port: '',
-        pathname: '*',
+        hostname: 'files.stripe.com'
       }
     ]
   },
