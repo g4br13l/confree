@@ -15,6 +15,8 @@ declare global {
       KINDE_POST_LOGOUT_REDIRECT_URL: string;
       KINDE_POST_LOGIN_REDIRECT_URL: string;
 
+      DATABASE_URL: string;
+
     }
   }
 
