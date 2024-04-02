@@ -3,6 +3,12 @@
 
 const nextConfig = {
 
+  /*experimental: {
+    serverActions: {
+      allowedOrigins: ['my-proxy.com']
+    }
+  },*/
+
   images: {
     formats: ['image/avif', "image/webp"],
     remotePatterns: [

@@ -1,15 +1,10 @@
 import Image from "next/image";
-import {LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
 import {Button} from "@/components/ui/button";
 import Link from "next/link";
 
 export default function Home() {
 
   return (
-    /*<div>
-      <LoginLink>Login</LoginLink>
-      <Button>Test btn</Button>
-    </div>*/
 
     <div>
       <section className="bg-bgapp-red/50 text-foreground py-5 md:py-10">
@@ -35,7 +30,7 @@ export default function Home() {
       </section>
 
 
-      <section id="events" className=" flex flex-col wrapper my-8 gap-8 md:gap-12">
+      <section id="eventos" className="flex flex-col wrapper my-8 gap-8 md:gap-12 h-screen">
         <h2 className="h2-bold">Confrarias</h2>
         <div className="flex flex-col w-full gap-5 md:flex-row">
           Busque - categorias
